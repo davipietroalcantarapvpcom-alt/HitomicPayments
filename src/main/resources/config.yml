@@ -1,0 +1,22 @@
+webhook:
+  enabled: false
+  bind-address: "127.0.0.1"
+  port: 27512
+  path: "/webhook"
+  token: "TROQUE_POR_UM_TOKEN_SEGURO_COM_PELO_MENOS_32_CARACTERES"
+  max-body-bytes: 16384
+
+paid-statuses:
+  - "paid"
+  - "pago"
+
+products:
+  vipplus:
+    - "vip plus"
+    - "vipplus"
+  mvp:
+    - "mvp"
+  lord:
+    - "lord"
+  hitomic:
+    - "hitomic"

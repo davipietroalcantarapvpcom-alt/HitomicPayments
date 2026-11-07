@@ -1,0 +1,14 @@
+name: HitomicPayments
+version: 1.0.0
+main: com.hitomic.payments.HitomicPayments
+api-version: '1.21'
+depend: [LuckPerms]
+commands:
+  hitomicpayments:
+    description: Administração do HitomicPayments
+    usage: /hitomicpayments reload
+    permission: hitomicpayments.admin
+    aliases: [hpay]
+permissions:
+  hitomicpayments.admin:
+    default: op
